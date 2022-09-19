@@ -5,16 +5,16 @@ const config: IPackConfig = {
     projectRoot: __dirname,
     target: "node14-win-x64",
     input: "./build/src/app.js",
-    output: "./bin/ave-app.exe",
+    output: "./bin/ave-react-app.exe",
   },
   resource: {
     icon: "./assets/ave.ico",
     productVersion: "0.0.1",
-    productName: "Ave Template App",
+    productName: "Ave React Template App",
     fileVersion: "0.0.1",
     companyName: "QberSoft",
-    fileDescription: "The Template App of Ave",
-    LegalCopyright: `© ${new Date().getFullYear()} Ave Copyright.`,
+    fileDescription: "The Template App of Ave React",
+    LegalCopyright: `© ${new Date().getFullYear()} Ave React Copyright.`,
   },
 };
 
