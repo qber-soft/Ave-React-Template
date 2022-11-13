@@ -24,6 +24,6 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "ave-react": "^0.1.1"
+    "ave-react": "^0.1.2"
   }
 }
