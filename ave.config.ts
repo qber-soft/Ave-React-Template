@@ -6,6 +6,8 @@ const config: IPackConfig = {
     target: "node14-win-x64",
     input: "./build/src/app.js",
     output: "./bin/ave-react-app.exe",
+    // debug: true,
+    edit: false
   },
   resource: {
     icon: "./assets/ave.ico",
